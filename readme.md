@@ -18,7 +18,7 @@ This is a serverless application with a react front end. Backend is provisioned 
         chmod +x ./init
         ./init
     ```
-    This will deploy the cdk stack, add the output file to the frontend folder and build and copy the react app to the bucket
+    This will deploy the cdk stack to you default account, add the output file to the frontend folder and build and copy the react app to the bucket
 5. Go to the bucket url (output from cdk deploy) to check out your app!
 
 Alternatively you could do step 4 manually by
