@@ -128,4 +128,4 @@ dist
 
 build/
 .vscode/
-frontend/outputs.json
+frontend/src/outputs.json
