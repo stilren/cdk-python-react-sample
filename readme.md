@@ -1,5 +1,5 @@
 # Serverless-CDK-React
-This is a serverless application with a react front end. Backend is provisioned and deployed with cdk.
+This is a serverless application with a react front end. Backend is provisioned and deployed with cdk using python.
 
 # How to deploy
 1. Install aws cli & cdk (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html, https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#getting_started_install)
