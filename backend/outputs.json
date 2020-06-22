@@ -1,0 +1,9 @@
+{
+  "backend": {
+    "APPCLIENTID": "6rne064mqtpa7qluf7kgbr46ff",
+    "USERPOOLID": "eu-west-1_b83y57aJi",
+    "PROVIDER": "cognito-idp.eu-west-1.amazonaws.com/eu-west-1_b83y57aJi",
+    "GATEWAYURL": "https://t9tu6m5d1h.execute-api.eu-west-1.amazonaws.com/",
+    "BUCKETURL": "http://backend-websitebucket75c24d94-18p6lazp1nhrx.s3-website-eu-west-1.amazonaws.com"
+  }
+}

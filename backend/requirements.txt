@@ -1,0 +1,9 @@
+-e .
+pytest
+aws-cdk.aws_apigateway
+aws-cdk.aws_apigatewayv2
+aws-cdk.aws_dynamodb
+boto3
+aws-cdk.aws_s3
+aws-cdk.aws_iam
+aws_cdk.aws_cognito
