@@ -23,7 +23,7 @@ This is a serverless application with a react front end. Backend is provisioned 
 
 Alternatively you could do step 4 manually by
 1. In the backend folder run `cdk deploy`
-2. In the frontend folder run `npm run build` and then `aws s3 cp build s3://$bucketdomain --recursive`
+2. In the frontend folder run `npm run build` and then `aws s3 cp build s3://$bucketdomain --recursive` ($bucketdomain is an output from cdk deploy)
 
 # Misc
 ## Auth
@@ -33,8 +33,8 @@ Api gateway type is Http Gateway.
 ## Amplify
 The fronend uses AWS Amplify to handle auth and communication with the backend
 ## Dynamo schema:
-PK = USER#<USERID>
-SK = NOTE#<NOTEID>
+PK = USER#$USERID
+SK = NOTE#$NOTEID
 
 # Creds
 Creds to serverless-stack (https://serverless-stack.com/) from where I stole the frontend
