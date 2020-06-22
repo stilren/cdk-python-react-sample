@@ -32,7 +32,7 @@ class BackendStack(core.Stack):
                                            api_id=http_api.http_api_id,
                                            authorizer_type="JWT",
                                            jwt_configuration={
-                                               "audience": [user_pool_client.user_pool_client_id], "issuer": f"https://cognito-idp.eu-west-1.amazonaws.com/{user_pool.user_pool_id}"},
+                                               "audience": [user_pool_client.user_pool_client_id], "issuer": f"https://cognito-idp.{core.Aws.REGION}.amazonaws.com/{user_pool.user_pool_id}"},
                                            identity_source=[
                                                '$request.header.Authorization'],
                                            name="MyAuthorizer",
